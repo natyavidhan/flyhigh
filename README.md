@@ -4,6 +4,8 @@ A real-time aircraft-style RC dashboard built with Python + Pygame.
 
 It reads live channel data from a FlySky FS-CT6B transmitter over serial (`COM6`, `115200`) and renders a dark military-style HUD/cockpit at 1280x720.
 
+![img](assets/ss.png)
+
 ## Features
 
 - Live serial ingestion on a background thread (main thread is render-only)
